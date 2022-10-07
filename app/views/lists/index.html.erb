@@ -33,11 +33,10 @@
 </div>
 
 
-
-<ul>
+<div class="container-fluid d-flex justify-content-around align-items-center my-3">
   <% @lists.each do |list| %>
-    <li>
-    <%= link_to "#{list.name}", list_path(list)%>
-    </li>
+    <div class="d-flex flex-column row row-cols-4">
+      <%= link_to "#{list.name}", list_path(list) %>
+    </div>
   <% end %>
-</ul>
+</div>
