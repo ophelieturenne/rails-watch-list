@@ -22,7 +22,7 @@ list1 = List.new(name: "drama")
 list2 = List.new(name: "horror")
 list1.save
 list2.save
-bookmark = Bookmark.new(comment: "hey hey hey hey", list: List.first, movie: Movie.first)
+bookmark = Bookmark.new(comment: "hey hey hey hey", list: List.first, movie_id: Movie.first)
 bookmark.save
 
 puts "Finished"

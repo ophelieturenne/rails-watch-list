@@ -5,4 +5,14 @@
 @import "navbar";
 @import "banner";
 @import "link";
-@import "cards";
+@import "card-category";
+@import "tag";
+@import "movie_img";
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
