@@ -7,8 +7,9 @@
 # Ignore bundler config.
 /.bundle
 
-# Ignore images.
-/images
+# JPEG
+*.jpg
+*.jpeg
 
 # Ignore all logfiles and tempfiles.
 /log/*
