@@ -8,8 +8,8 @@
 /.bundle
 
 # JPEG
-*.jpg
-*.jpeg
+/app/assets/images/*.jpg
+/*.jpeg
 
 # Ignore all logfiles and tempfiles.
 /log/*
